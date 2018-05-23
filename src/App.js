@@ -16,7 +16,7 @@ function App(props) {
       {/* send in a prop called "message", give it the string "Hello World" */}
       <div>This better say "Hello World": <SuperComponent message={"Hello World"} /> </div>
       {/* send in a prop called "message", give it the string "Goodbye World" */}
-      <div>This better say "Goodbye World": <SuperComponent /> </div>
+      <div>This better say "Goodbye World": <SuperComponent message={"Goodbye World"}/> </div>
       {/* send in a prop called "message", give it the string "Props are awesome" */}
       <div>This better say "Props are awesome": <SuperComponent /> </div>
       {/* send in a prop called "message", give it the string "I totally get this now" */}
